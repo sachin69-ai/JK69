@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JK Constructions | Legally Verified Homes in Borkhera, Kota</title>
+<meta name="description" content="JK Constructions builds fully legally verified homes in Borkhera, Kota, with hospitals, schools and malls within walking distance. Founder: Junaid Khan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14181f;
+  --ink-2:#2a303b;
+  --muted:#5d6675;
+  --line:#e6e1d8;
+  --paper:#faf7f2;
+  --card:#ffffff;
+  --accent:#e8791d;
+  --accent-d:#c75f0b;
+  --accent-soft:#fdeedd;
+  --green:#1f8a5b;
+  --wa:#25d366;
+  --radius:18px;
+  --shadow:0 12px 40px rgba(20,24,31,.10);
+  --max:1160px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ink:#f3efe8; --ink-2:#d9d4ca; --muted:#a2a8b3; --line:#2b313c;
+    --paper:#0f1217; --card:#171b22; --accent-soft:#2a1d10; --shadow:0 12px 40px rgba(0,0,0,.45);
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.12;letter-spacing:-.01em}
+h2{font-size:clamp(28px,4vw,42px);margin-bottom:14px}
+.eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+.lead{color:var(--muted);font-size:17px;max-width:620px}
+section{padding:88px 0}
+.center{text-align:center}.center .lead{margin:0 auto}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;font-weight:700;font-size:15px;border:2px solid transparent;cursor:pointer;transition:.2s;font-family:inherit}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{background:var(--accent-d);transform:translateY(-2px)}
+.btn-ghost{border-color:rgba(255,255,255,.4);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-wa{background:var(--wa);color:#07290f}
+.btn-wa:hover{transform:translateY(-2px);filter:brightness(.95)}
+
+/* Header */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:.3s}
+header.solid{background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.logo{display:flex;align-items:center;gap:10px;font-family:'Fraunces',serif;font-weight:700;font-size:21px;color:#fff}
+header.solid .logo{color:var(--ink)}
+.logo-mark{width:38px;height:38px;border-radius:10px;background:var(--accent);display:grid;place-items:center;color:#fff;font-size:15px;font-family:'Plus Jakarta Sans';font-weight:800}
+.logo small{display:block;font-family:'Plus Jakarta Sans';font-weight:500;font-size:10px;letter-spacing:.2em;opacity:.75;margin-top:-3px}
+nav ul{display:flex;gap:30px;list-style:none}
+nav a{font-weight:600;font-size:14.5px;color:rgba(255,255,255,.88)}
+header.solid nav a{color:var(--ink-2)}
+nav a:hover{color:var(--accent)}
+.nav-cta{display:inline-flex}
+.burger{display:none;background:none;border:0;width:42px;height:42px;cursor:pointer}
+.burger span{display:block;width:24px;height:2px;background:#fff;margin:5px auto;transition:.25s}
+header.solid .burger span{background:var(--ink)}
+
+/* Hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;color:#fff;overflow:hidden;
+  background:radial-gradient(1200px 600px at 80% 20%,#3a2a1c 0%,transparent 60%),linear-gradient(160deg,#0e1218 0%,#1b222d 55%,#2a2018 100%);padding:120px 0 90px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative;z-index:2}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);font-size:13px;font-weight:600;margin-bottom:22px}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--wa);box-shadow:0 0 0 4px rgba(37,211,102,.25)}
+.hero h1{font-size:clamp(38px,6vw,68px);margin-bottom:20px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lead{color:rgba(255,255,255,.76);font-size:18px;margin-bottom:34px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:26px;margin-top:44px;padding-top:26px;border-top:1px solid rgba(255,255,255,.15)}
+.hero-meta div{font-size:13px;color:rgba(255,255,255,.7)}
+.hero-meta b{display:block;color:#fff;font-size:15px}
+.hero-art{position:relative}
+.hero-art svg{width:100%;height:auto;filter:drop-shadow(0 30px 50px rgba(0,0,0,.5))}
+.float-card{position:absolute;background:var(--card);color:var(--ink);padding:12px 16px;border-radius:14px;box-shadow:var(--shadow);font-size:13px;font-weight:700;display:flex;gap:10px;align-items:center;animation:bob 5s ease-in-out infinite}
+.float-card span{font-size:20px}
+.float-card.a{left:-4%;top:12%}
+.float-card.b{right:-2%;bottom:16%;animation-delay:-2.5s}
+@keyframes bob{50%{transform:translateY(-10px)}}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(circle at 60% 40%,#000,transparent 75%)}
+
+/* Promise strip */
+.strip{background:var(--ink);color:var(--paper);padding:26px 0}
+@media (prefers-color-scheme: dark){.strip{background:#1a1f27;color:#f3efe8}}
+.strip .wrap{display:flex;flex-wrap:wrap;gap:18px 40px;justify-content:space-between}
+.strip div{display:flex;align-items:center;gap:10px;font-weight:600;font-size:14.5px}
+.strip svg{width:20px;height:20px;color:var(--accent);flex:none}
+
+/* Cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:32px;transition:.25s}
+.card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:transparent}
+.icon{width:56px;height:56px;border-radius:16px;background:var(--accent-soft);display:grid;place-items:center;font-size:26px;margin-bottom:20px}
+.card h3{font-size:22px;margin-bottom:10px}
+.card p{color:var(--muted);font-size:15px}
+
+/* Walkable */
+.walk{background:linear-gradient(180deg,var(--paper),var(--accent-soft))}
+.walk-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.amen{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:30px}
+.amen div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;gap:14px;align-items:center;font-weight:600;font-size:15px}
+.amen span{font-size:26px}
+.amen small{display:block;font-weight:500;color:var(--muted);font-size:12.5px}
+.radar{position:relative;aspect-ratio:1;max-width:460px;margin:auto}
+.radar svg{width:100%;height:100%}
+.ring{fill:none;stroke:var(--accent);stroke-opacity:.35;stroke-dasharray:4 6}
+.pulse{animation:pulse 3s ease-out infinite;transform-origin:center;transform-box:fill-box}
+@keyframes pulse{from{transform:scale(.4);opacity:.7}to{transform:scale(1.5);opacity:0}}
+
+/* Legal steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:50px;counter-reset:s}
+.step{position:relative;padding:28px 24px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius)}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:'Fraunces',serif;font-size:40px;font-weight:700;color:var(--accent);opacity:.9;display:block;margin-bottom:8px}
+.step h3{font-size:19px;margin-bottom:8px}
+.step p{font-size:14.5px;color:var(--muted)}
+.note{margin-top:26px;font-size:13px;color:var(--muted)}
+
+/* Homes */
+.homes{background:var(--card);border-block:1px solid var(--line)}
+.home-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.home{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--paper);transition:.25s}
+.home:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.home-img{height:200px;position:relative;display:grid;place-items:end center;overflow:hidden}
+.home-img.h1{background:linear-gradient(180deg,#f9c98b,#fbe7cc)}
+.home-img.h2{background:linear-gradient(180deg,#a9cdea,#e1eff9)}
+.home-img.h3{background:linear-gradient(180deg,#c9d9a8,#eef3dc)}
+.tag{position:absolute;top:14px;left:14px;background:#fff;color:#14181f;font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+.home-body{padding:24px}
+.home-body h3{font-size:21px;margin-bottom:6px}
+.home-body p{color:var(--muted);font-size:14.5px;margin-bottom:16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.chips span{font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:999px;background:var(--accent-soft);color:var(--accent-d)}
+@media (prefers-color-scheme: dark){.chips span{color:var(--accent)}}
+.link{font-weight:700;color:var(--accent);font-size:14.5px}
+.link:hover{text-decoration:underline}
+
+/* Location */
+.loc-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+.loc-list{list-style:none;margin-top:24px;display:grid;gap:14px}
+.loc-list li{display:flex;gap:12px;align-items:flex-start;font-size:15.5px}
+.loc-list svg{flex:none;width:22px;height:22px;color:var(--green);margin-top:2px}
+.map{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);height:420px;background:var(--line)}
+.map iframe{width:100%;height:100%;border:0}
+
+/* About */
+.about{background:var(--ink);color:#f3efe8}
+@media (prefers-color-scheme: dark){.about{background:#12161c}}
+.about .lead{color:rgba(255,255,255,.72)}
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center}
+.founder{aspect-ratio:1;border-radius:28px;background:linear-gradient(135deg,var(--accent),#7a3a08);display:grid;place-items:center;position:relative;overflow:hidden}
+.founder span{font-family:'Fraunces',serif;font-size:clamp(80px,12vw,140px);font-weight:700;color:rgba(255,255,255,.92)}
+.founder::after{content:"";position:absolute;inset:14px;border:1.5px solid rgba(255,255,255,.35);border-radius:20px}
+.sign{margin-top:22px;font-family:'Fraunces',serif;font-size:20px}
+.sign small{display:block;font-family:'Plus Jakarta Sans';font-size:13px;color:rgba(255,255,255,.6)}
+
+/* Contact */
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.contact-info{display:grid;gap:16px;margin-top:28px}
+.ci{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.ci span{font-size:22px}
+.ci small{display:block;color:var(--muted);font-size:12.5px}
+.ci b{font-size:15.5px}
+form{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:34px;box-shadow:var(--shadow)}
+form h3{font-size:24px;margin-bottom:6px}
+form>p{color:var(--muted);font-size:14px;margin-bottom:22px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ink-2)}
+input,select,textarea{width:100%;padding:13px 15px;border:1.5px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;font-size:15px;margin-bottom:16px;transition:.2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}
+textarea{resize:vertical;min-height:90px}
+form .btn{width:100%;justify-content:center}
+
+/* Footer */
+footer{background:#0b0e13;color:rgba(255,255,255,.7);padding:56px 0 30px;font-size:14px}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:36px;border-bottom:1px solid rgba(255,255,255,.1)}
+footer h4{color:#fff;font-size:14px;margin-bottom:14px;letter-spacing:.06em;text-transform:uppercase}
+footer ul{list-style:none;display:grid;gap:8px}
+footer a:hover{color:var(--accent)}
+.copy{padding-top:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:13px}
+
+/* Floating WhatsApp */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 30px rgba(37,211,102,.5);transition:.2s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:32px;height:32px;fill:#fff}
+.wa-float::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--wa);animation:ring 2s infinite}
+@keyframes ring{to{transform:scale(1.6);opacity:0}}
+
+/* Reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+/* Responsive */
+@media (max-width:980px){
+  .hero-grid,.walk-grid,.loc-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+  .cards,.home-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .hero-art{max-width:520px;margin:20px auto 0}
+  .founder{max-width:320px}
+}
+@media (max-width:760px){
+  section{padding:64px 0}
+  .burger{display:block}
+  .nav-cta{display:none}
+  nav{position:fixed;inset:74px 0 auto 0;background:var(--paper);border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .35s}
+  nav.open{max-height:360px}
+  nav ul{flex-direction:column;gap:0;padding:10px 20px 20px}
+  nav a{display:block;padding:14px 0;color:var(--ink)!important;border-bottom:1px solid var(--line)}
+  .cards,.home-grid,.steps,.amen,.row,.foot{grid-template-columns:1fr}
+  .float-card{display:none}
+  .strip .wrap{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="#top" class="logo" aria-label="JK Constructions home">
+      <span class="logo-mark">JK</span>
+      <span>JK Constructions<small>BORKHERA · KOTA</small></span>
+    </a>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#walkable">Walkable Living</a></li>
+        <li><a href="#legal">Legal Assurance</a></li>
+        <li><a href="#homes">Homes</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-wa nav-cta" href="https://wa.me/917878194206" target="_blank" rel="noopener">WhatsApp Us</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero" style="padding-top:120px">
+  <div class="grid-bg"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="pill"><i></i> Now enquiring · Borkhera, Kota</div>
+      <h1>Your dream home, <em>legally verified</em> &amp; everything within walking distance.</h1>
+      <p class="lead">JK Constructions delivers complete, ready-to-live homes in Borkhera, Kota, with clean paperwork and hospitals, schools and malls just a short walk from your door.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Book a Site Visit →</a>
+        <a class="btn btn-ghost" href="https://wa.me/917878194206?text=Hello%20JK%20Constructions%2C%20I%20want%20to%20know%20about%20your%20homes%20in%20Borkhera." target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>Legally Verified</b>Clear title &amp; approvals</div>
+        <div><b>Walkable Location</b>Daily needs nearby</div>
+        <div><b>Led by Junaid Khan</b>Direct, personal service</div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="float-card a"><span>🏥</span> Hospital nearby</div>
+      <div class="float-card b"><span>✅</span> Legally verified</div>
+      <svg viewBox="0 0 520 440" fill="none">
+        <ellipse cx="260" cy="400" rx="220" ry="22" fill="#000" opacity=".25"/>
+        <rect x="70" y="170" width="170" height="220" rx="6" fill="#2b3442"/>
+        <rect x="260" y="110" width="190" height="280" rx="6" fill="#e8791d"/>
+        <rect x="260" y="110" width="190" height="22" fill="#c75f0b"/>
+        <g fill="#fff" opacity=".9">
+          <rect x="285" y="155" width="34" height="34" rx="4"/><rect x="345" y="155" width="34" height="34" rx="4"/><rect x="405" y="155" width="26" height="34" rx="4"/>
+          <rect x="285" y="210" width="34" height="34" rx="4"/><rect x="345" y="210" width="34" height="34" rx="4" opacity=".5"/><rect x="405" y="210" width="26" height="34" rx="4"/>
+          <rect x="285" y="265" width="34" height="34" rx="4" opacity=".5"/><rect x="345" y="265" width="34" height="34" rx="4"/><rect x="405" y="265" width="26" height="34" rx="4"/>
+        </g>
+        <rect x="330" y="330" width="50" height="60" rx="4" fill="#7a3a08"/>
+        <g fill="#f6c27f" opacity=".85">
+          <rect x="92" y="196" width="28" height="28" rx="3"/><rect x="140" y="196" width="28" height="28" rx="3"/><rect x="188" y="196" width="28" height="28" rx="3"/>
+          <rect x="92" y="246" width="28" height="28" rx="3"/><rect x="140" y="246" width="28" height="28" rx="3" opacity=".4"/><rect x="188" y="246" width="28" height="28" rx="3"/>
+          <rect x="92" y="296" width="28" height="28" rx="3" opacity=".4"/><rect x="140" y="296" width="28" height="28" rx="3"/><rect x="188" y="296" width="28" height="28" rx="3"/>
+        </g>
+        <rect x="20" y="388" width="480" height="8" rx="4" fill="#3b4556"/>
+        <!-- crane -->
+        <path d="M120 170V40h200" stroke="#f6c27f" stroke-width="6" stroke-linecap="round"/>
+        <path d="M120 40l-34 20M300 40v70" stroke="#f6c27f" stroke-width="3"/>
+        <rect x="288" y="108" width="24" height="10" fill="#f6c27f"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip">
+  <div class="wrap">
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Fully legally verified</div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Complete turnkey homes</div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Walking-distance amenities</div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Prime Borkhera locality</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap center">
+    <span class="eyebrow">What we do</span>
+    <h2>A complete home, not just a building.</h2>
+    <p class="lead">We take care of the land, the legal work, the construction and the location, so you only have to move in.</p>
+    <div class="cards">
+      <article class="card rv"><div class="icon">🏡</div><h3>Fully Built Homes</h3><p>Ready-to-live homes with quality construction, practical layouts, good ventilation and finishing you can be proud of.</p></article>
+      <article class="card rv"><div class="icon">📜</div><h3>Legally Verified</h3><p>Every property goes through document and title checks before it reaches you, for a purchase with peace of mind.</p></article>
+      <article class="card rv"><div class="icon">🚶</div><h3>Walkable Neighbourhood</h3><p>We choose locations where hospitals, schools and shopping are close, saving you daily travel time and fuel.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- WALKABLE -->
+<section class="walk" id="walkable">
+  <div class="wrap walk-grid">
+    <div class="rv">
+      <span class="eyebrow">Walkable living</span>
+      <h2>Everything your family needs, a short walk away.</h2>
+      <p class="lead">Imagine school runs without traffic, a hospital close by in an emergency, and a mall or market for weekend plans, all near home.</p>
+      <div class="amen">
+        <div><span>🏥</span><p>Hospitals<small>Healthcare close by</small></p></div>
+        <div><span>🏫</span><p>Schools<small>Short, safe walk for kids</small></p></div>
+        <div><span>🛍️</span><p>Malls &amp; Markets<small>Shopping and daily needs</small></p></div>
+        <div><span>🌳</span><p>Parks &amp; Open Space<small>Fresh air, evening walks</small></p></div>
+      </div>
+    </div>
+    <div class="radar rv" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <circle class="ring" cx="200" cy="200" r="70"/><circle class="ring" cx="200" cy="200" r="130"/><circle class="ring" cx="200" cy="200" r="185"/>
+        <circle class="pulse" cx="200" cy="200" r="40" fill="#e8791d" opacity=".5"/>
+        <circle cx="200" cy="200" r="26" fill="#e8791d"/>
+        <text x="200" y="207" text-anchor="middle" font-size="18" fill="#fff" font-weight="800" font-family="Plus Jakarta Sans">JK</text>
+        <g font-size="26" text-anchor="middle">
+          <circle cx="110" cy="110" r="26" fill="var(--card)" stroke="var(--line)"/><text x="110" y="120">🏥</text>
+          <circle cx="300" cy="95" r="26" fill="var(--card)" stroke="var(--line)"/><text x="300" y="105">🏫</text>
+          <circle cx="320" cy="270" r="26" fill="var(--card)" stroke="var(--line)"/><text x="320" y="280">🛍️</text>
+          <circle cx="95" cy="290" r="26" fill="var(--card)" stroke="var(--line)"/><text x="95" y="300">🌳</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- LEGAL -->
+<section id="legal">
+  <div class="wrap center">
+    <span class="eyebrow">Legal assurance</span>
+    <h2>Verified before it's offered.</h2>
+    <p class="lead">A home is the biggest purchase of your life. Our process is built so the paperwork is never your worry.</p>
+    <div class="steps">
+      <div class="step rv"><h3>Title Check</h3><p>Ownership records and land documents are examined to confirm a clear, marketable title.</p></div>
+      <div class="step rv"><h3>Approvals</h3><p>Required local authority approvals and permissions are confirmed before construction.</p></div>
+      <div class="step rv"><h3>Transparent Papers</h3><p>You can review the documents with your own advisor or lawyer before you decide.</p></div>
+      <div class="step rv"><h3>Smooth Registry</h3><p>We guide you through registration and handover, step by step.</p></div>
+    </div>
+    <p class="note">We encourage every buyer to have their own legal advisor review the documents.</p>
+  </div>
+</section>
+
+<!-- HOMES -->
+<section class="homes" id="homes">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Our homes</span>
+      <h2>Find the home that fits your family.</h2>
+      <p class="lead">Message us on WhatsApp for current availability, plans and pricing.</p>
+    </div>
+    <div class="home-grid">
+      <article class="home rv">
+        <div class="home-img h1"><span class="tag">Compact</span>
+          <svg viewBox="0 0 300 150" width="300"><rect x="50" y="60" width="200" height="90" fill="#fff"/><path d="M35 62L150 12l115 50z" fill="#c75f0b"/><rect x="130" y="95" width="40" height="55" fill="#7a3a08"/><rect x="70" y="80" width="38" height="30" fill="#a9cdea"/><rect x="192" y="80" width="38" height="30" fill="#a9cdea"/></svg></div>
+        <div class="home-body"><h3>2 BHK Home</h3><p>Smart, affordable layout ideal for small families and first-time buyers.</p>
+          <div class="chips"><span>Verified</span><span>Near school</span><span>Ready to move</span></div>
+          <a class="link" target="_blank" rel="noopener" href="https://wa.me/917878194206?text=Hello%2C%20I%20am%20interested%20in%20the%202%20BHK%20home%20in%20Borkhera.">Ask on WhatsApp →</a></div>
+      </article>
+      <article class="home rv">
+        <div class="home-img h2"><span class="tag">Popular</span>
+          <svg viewBox="0 0 300 150" width="300"><rect x="40" y="40" width="220" height="110" fill="#fff"/><rect x="40" y="40" width="220" height="14" fill="#2b3442"/><rect x="62" y="70" width="40" height="30" fill="#e8791d"/><rect x="130" y="70" width="40" height="30" fill="#e8791d"/><rect x="198" y="70" width="40" height="30" fill="#e8791d"/><rect x="130" y="110" width="40" height="40" fill="#7a3a08"/></svg></div>
+        <div class="home-body"><h3>3 BHK Home</h3><p>Spacious rooms, modern finish and room to grow, for the family that wants more.</p>
+          <div class="chips"><span>Verified</span><span>Near hospital</span><span>Parking</span></div>
+          <a class="link" target="_blank" rel="noopener" href="https://wa.me/917878194206?text=Hello%2C%20I%20am%20interested%20in%20the%203%20BHK%20home%20in%20Borkhera.">Ask on WhatsApp →</a></div>
+      </article>
+      <article class="home rv">
+        <div class="home-img h3"><span class="tag">Premium</span>
+          <svg viewBox="0 0 300 150" width="300"><rect x="30" y="50" width="240" height="100" fill="#fff"/><path d="M20 52L150 14l130 38z" fill="#2b3442"/><rect x="50" y="75" width="46" height="40" fill="#a9cdea"/><rect x="204" y="75" width="46" height="40" fill="#a9cdea"/><rect x="128" y="88" width="44" height="62" fill="#7a3a08"/><circle cx="150" cy="38" r="8" fill="#e8791d"/></svg></div>
+        <div class="home-body"><h3>Independent Villa</h3><p>Your own private space with a garden-ready plot and premium detailing.</p>
+          <div class="chips"><span>Verified</span><span>Near mall</span><span>Private</span></div>
+          <a class="link" target="_blank" rel="noopener" href="https://wa.me/917878194206?text=Hello%2C%20I%20am%20interested%20in%20the%20villa%20in%20Borkhera.">Ask on WhatsApp →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location">
+  <div class="wrap loc-grid">
+    <div class="rv">
+      <span class="eyebrow">Location</span>
+      <h2>Borkhera, Kota: a growing, well-connected locality.</h2>
+      <p class="lead">Borkhera is a popular residential area in Kota, Rajasthan, chosen for its everyday convenience and room to grow.</p>
+      <ul class="loc-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>Hospitals, schools and shopping within walking distance</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>Peaceful residential surroundings</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>Good road access to the rest of Kota</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>Strong long-term value in a developing area</li>
+      </ul>
+    </div>
+    <div class="map rv">
+      <iframe title="Borkhera, Kota map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Borkhera,Kota,Rajasthan&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="founder rv" aria-hidden="true"><span>JK</span></div>
+    <div class="rv">
+      <span class="eyebrow">About us</span>
+      <h2>Built on trust, one home at a time.</h2>
+      <p class="lead">JK Constructions was founded by Junaid Khan with a simple belief: buying a home should be safe, clear and stress-free. We build in locations that make daily life easier and keep every document transparent.</p>
+      <p class="sign">Junaid Khan<small>Founder, JK Constructions</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div class="rv">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Let's find your home in Borkhera.</h2>
+      <p class="lead">Fill the form and it opens WhatsApp with your details ready to send, or message us directly.</p>
+      <div class="contact-info">
+        <a class="ci" href="https://wa.me/917878194206" target="_blank" rel="noopener"><span>💬</span><div><small>WhatsApp</small><b>+91 78781 94206</b></div></a>
+        <a class="ci" href="tel:+917878194206"><span>📞</span><div><small>Call</small><b>+91 78781 94206</b></div></a>
+        <div class="ci"><span>📍</span><div><small>Location</small><b>Borkhera, Kota, Rajasthan</b></div></div>
+      </div>
+    </div>
+    <form id="enq" class="rv">
+      <h3>Send an enquiry</h3>
+      <p>We'll reply on WhatsApp as soon as possible.</p>
+      <div class="row">
+        <div><label for="n">Your name</label><input id="n" required placeholder="Full name"></div>
+        <div><label for="p">Phone</label><input id="p" type="tel" required placeholder="Your number"></div>
+      </div>
+      <div class="row">
+        <div><label for="t">Looking for</label>
+          <select id="t"><option>2 BHK Home</option><option>3 BHK Home</option><option>Independent Villa</option><option>Not sure yet</option></select></div>
+        <div><label for="b">Budget (optional)</label><input id="b" placeholder="e.g. 40 lakh"></div>
+      </div>
+      <label for="m">Message</label>
+      <textarea id="m" placeholder="Tell us what you need..."></textarea>
+      <button class="btn btn-wa" type="submit">Send on WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="#top" class="logo" style="color:#fff;margin-bottom:14px"><span class="logo-mark">JK</span><span>JK Constructions</span></a>
+        <p>Legally verified homes with everything within walking distance, in Borkhera, Kota.</p>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="#services">Services</a></li><li><a href="#walkable">Walkable Living</a></li><li><a href="#legal">Legal Assurance</a></li><li><a href="#homes">Homes</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="https://wa.me/917878194206" target="_blank" rel="noopener">WhatsApp: 7878194206</a></li><li>Borkhera, Kota</li><li>Owner: Junaid Khan</li></ul></div>
+    </div>
+    <div class="copy"><span>© <span id="yr"></span> JK Constructions. All rights reserved.</span><span>Images are illustrative.</span></div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/917878194206?text=Hello%20JK%20Constructions%2C%20I%20want%20to%20know%20more." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.4.7 4.700 1.900 6.600L3 29l7.100-1.800c1.900 1 4 1.600 6 1.600 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.800c-1.900 0-3.800-.5-5.400-1.500l-.4-.2-4.200 1.100 1.100-4.100-.3-.4c-1.100-1.700-1.700-3.600-1.700-5.600C5.100 9.800 10 5 16 5s10.900 4.800 10.900 10.500S22 25.800 16 25.800zm6-7.800c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7.100-.1.300-.4.500-.5.200-.2.200-.3.300-.5.100-.2.100-.4 0-.5-.1-.2-.7-1.700-1-2.300-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400-.3.300-1.100 1-1.100 2.600s1.100 3 1.300 3.200c.2.200 2.200 3.300 5.300 4.600.7.300 1.300.5 1.800.7.700.2 1.400.2 1.900.1.600-.1 1.900-.8 2.100-1.500.3-.7.300-1.400.2-1.500-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<script>
+// Sticky header
+const hdr=document.getElementById('hdr');
+const onScroll=()=>hdr.classList.toggle('solid',window.scrollY>40);
+onScroll();addEventListener('scroll',onScroll,{passive:true});
+
+// Mobile menu
+const burger=document.getElementById('burger'),nav=document.getElementById('nav');
+burger.addEventListener('click',()=>{const o=nav.classList.toggle('open');burger.setAttribute('aria-expanded',o);hdr.classList.add('solid')});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');burger.setAttribute('aria-expanded',false)}));
+
+// Reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+// Enquiry -> WhatsApp
+document.getElementById('enq').addEventListener('submit',e=>{
+  e.preventDefault();
+  const v=id=>document.getElementById(id).value.trim();
+  const text=`Hello JK Constructions,%0A%0AName: ${encodeURIComponent(v('n'))}%0APhone: ${encodeURIComponent(v('p'))}%0ALooking for: ${encodeURIComponent(v('t'))}%0ABudget: ${encodeURIComponent(v('b')||'Not specified')}%0AMessage: ${encodeURIComponent(v('m')||'-')}`;
+  window.open(`https://wa.me/917878194206?text=${text}`,'_blank','noopener');
+});
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
